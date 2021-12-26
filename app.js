@@ -71,5 +71,5 @@ let update = () => {
   requestAnimationFrame(update);
   frames++;
 };
-
-update();
+//Wait
+setTimeout(() => update(), 100);
