@@ -3,8 +3,9 @@ console.log("%c<3", "color: red; font-size: 100px; font-weight: bold;");
 //Create Canvas
 const canvas = document.createElement("canvas");
 canvas.setAttribute("id", "canvas");
+const noscript = document.getElementsByTagName("noscript")[0];
 //Add canvas to body
-document.body.appendChild(canvas);
+document.body.insertBefore(canvas, noscript);
 
 const ctx = canvas.getContext("2d");
 
