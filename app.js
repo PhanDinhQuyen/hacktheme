@@ -1,5 +1,3 @@
-console.log("%cHello chồng iu", "font-size: 50px; ");
-console.log("%c<3", "color: red; font-size: 100px; font-weight: bold;");
 //Create Canvas
 const canvas = document.createElement("canvas");
 canvas.setAttribute("id", "canvas");
